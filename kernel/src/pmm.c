@@ -1,4 +1,5 @@
-#include <common.h>
+// #include <common.h>
+#include "../include/common.h"
 
 static page_t *mem_start=NULL;
 static kmem_cache kmc[8];

@@ -1,4 +1,5 @@
-#include <common.h>
+// #include <common.h>
+#include "../include/common.h"
 
 #define current cpu_task[_cpu()].current
 extern spinlock_t os_trap_lk;

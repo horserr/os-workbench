@@ -1,4 +1,5 @@
-#include <common.h>
+// #include <common.h>
+#include "../include/common.h"
 
 #define current (cpu_task[_cpu()].current)
 #define cur_idle (&(cpu_task[_cpu()].idle_task))

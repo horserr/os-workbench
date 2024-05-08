@@ -1,4 +1,5 @@
-#include <common.h>
+// #include <common.h>
+#include "../include/common.h"
 
 static int ncli[MAX_CPU]={0};
 static int intena[MAX_CPU]={0};
